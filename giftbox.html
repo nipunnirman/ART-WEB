@@ -7,21 +7,36 @@
   <link rel="stylesheet" href="giftbox.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <!-- Bootstrap Bundle with Popper (required for navbar toggler) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Add this inside the <body> of each page -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
     <div class="container">
       <a class="navbar-brand" href="index.html">Through My Pencil</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#gallery">Art Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="giftbox.html">Gift Box</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Prices & Sizes</a></li>
+  
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="giftbox.html">Gift Box</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="art.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="price.html">Price List</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
+  
+  
   <div class="container py-5">
     <h2 class="text-center mb-4">🎁 Customize Your Gift Box</h2>
     <div class="row">
@@ -109,7 +124,7 @@
         <div class="form-check my-3">
           <input class="form-check-input gift-option" type="checkbox" value="3000" id="womenPortrait" data-name="Portrait Art (Women)">
           <label class="form-check-label d-flex align-items-center" for="womenPortrait">
-            <img src="image/0801716F-2B7F-4D7D-88EA-E89E1DEDC3E1.JPEG" alt="Portrait Art" class="product-img me-3" 
+            <img src="image/p1.JPEG" alt="Portrait Art" class="product-img me-3" 
                > 
             Portrait Art - Rs.3000
           </label>

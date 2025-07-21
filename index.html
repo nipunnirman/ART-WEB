@@ -11,35 +11,50 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-    <div class="container">
-      <a class="navbar-brand" href="#">Through My Pencil</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#gallery">Art Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="giftbox.html">Gift Box</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Prices & Sizes</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<!-- Add this inside the <body> of each page -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Through My Pencil</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="giftbox.html">Gift Box</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="art.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="price.html">Price List</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
 
   <!-- Hero Section -->
-  <header class="hero-section text-center py-5">
-    <div class="container">
-      <h1 class="display-4">Welcome to Through My Pencil</h1>
-      <p class="lead">Experience the depth and detail of pencil sketches</p>
+  <!-- Hero Section with Background Video -->
+<section class="hero-section">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="image/Loop Background | Live Wallpaper | Chilling Cat | No Sound.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="hero-content">
+      <h1>Welcome to Through My Pencil</h1>
+      <p>Experience the depth and detail of pencil sketches</p>
+     
     </div>
-  </header>
-
+  </section>
   
 
   <!-- Gallery Section -->
   <section id="gallery" class="container my-5">
-    <h2 class="text-center mb-4">Drawing Samples</h2>
+    <h2 class="text-center mb-4"></h2>
     <div class="row">
       <div class="col-md-4 mb-4">
         <img src="image/img2.JPG" alt="Sample 1" class="img-fluid rounded shadow-sm hover-effect">
@@ -48,14 +63,14 @@
         <img src="image/Grey and Blue Modern Minimalist Photo Collage A4 Document.png" alt="Sample 2" class="img-fluid rounded shadow-sm hover-effect">
       </div>
       <div class="col-md-4 mb-4">
-        <img src="image/IMG_2789_color_Transparent_PicCopilot_4ac86.png" alt="Sample 3" class="img-fluid rounded shadow-sm hover-effect">
+        <img src="image/c2.JPEG" alt="Sample 3" class="img-fluid rounded shadow-sm hover-effect">
       </div>
     </div>
   </section>
   <!-- About Section -->
   <section id="about" class="container my-5 text-center">
     <h2 class="mb-4">About Me</h2>
-    <img src="image/profile3.JPG" alt="Artist Photo" class="rounded-circle mb-3" width="150" height="150">
+    <img src="image/profile3.JPG" alt="Artist Photo" class="img-fluid feedback-img mb-3" width="150" >
     <p>Hi, I'm <strong>Nipun Nirman</strong>, a Computer Science student at the University of Westminster with over 7 years of experience in pencil art. I specialize in realistic portrait sketches and custom artwork for clients worldwide. My passion for combining technology and creativity has led me to explore new ways of sharing traditional art online. Every pencil stroke I make tells a story – personal, emotional, and timeless. Let me help turn your memories into stunning hand-drawn masterpieces.</p>
   </section>
 
@@ -115,9 +130,9 @@
   <footer class="bg-light text-center py-4">
     <p>&copy; 2025 Through My Pencil. All rights reserved.</p>
     <div class="social-links mt-3">
-      <a href="https://www.facebook.com/yourprofile" target="_blank" class="me-3">Facebook</a>
-      <a href="https://www.instagram.com/yourprofile" target="_blank" class="me-3">Instagram</a>
-      <a href="https://www.twitter.com/yourprofile" target="_blank">Twitter</a>
+      <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank" class="me-3">Facebook</a>
+      <a href="https://www.instagram.com/nipun.nirman/" target="_blank" class="me-3">Instagram</a>
+      <a href="https://x.com/PencilThrough" target="_blank">Twitter</a>
     </div>
   </footer>
 
