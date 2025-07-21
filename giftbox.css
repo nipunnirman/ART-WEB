@@ -1,0 +1,140 @@
+
+    /* ==== GLOBAL STYLE (Soft Beige and Warm Greys Theme) ==== */
+    body {
+      background-color: #f7f3ec; /* Warm beige background */
+      color: #3e3e3e; /* Dark brown-grey text */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    /* Navbar */
+    .navbar {
+      background-color: #f7f3ec;
+      border-bottom: 1px solid #e0dbd3;
+    }
+    .navbar-brand, .nav-link {
+      color: #3e3e3e !important;
+      transition: color 0.3s ease;
+    }
+    .nav-link:hover {
+      color: #a3b18a !important; /* Olive green on hover */
+    }
+    /* Buttons */
+    button, .btn {
+      background-color: #a3b18a;
+      color: white;
+      border: none;
+      transition: background-color 0.3s ease;
+      border-radius: 8px;
+      padding: 10px 20px;
+      margin: 5px;
+    }
+    button:hover, .btn:hover {
+      background-color: #8c9d78;
+    }
+    /* Form */
+    .form-check-input:checked {
+      background-color: #a3b18a;
+      border-color: #a3b18a;
+    }
+    select.form-select:focus {
+      border-color: #d6a77a;
+      box-shadow: 0 0 0 0.2rem rgba(214, 167, 122, 0.25);
+    }
+    /* Headings */
+    h2, h3, h4 {
+      color: #3e3e3e;
+    }
+    /* Footer */
+    footer {
+      border-top: 1px solid #ddd2c6;
+      color: #3e3e3e;
+      font-size: 14px;
+    }
+    /* Total Price Display */
+    #totalPrice {
+      color: #a3b18a;
+      font-weight: bold;
+    }
+    /* Hover effect on cards and checkboxes */
+    .form-check-label:hover, select:hover {
+      cursor: pointer;
+      color: #a3b18a;
+    }
+    /* Optional: Add soft borders or box shadows for gift boxes */
+    .form-check, .form-select {
+      transition: all 0.3s ease-in-out;
+    }
+    .form-check:hover {
+      background-color: #fdf6e3;
+      border-radius: 6px;
+      padding-left: 8px;
+    }
+    
+    /* WhatsApp Button Styling */
+    .whatsapp-btn {
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 12px 25px;
+      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+    .whatsapp-btn:hover {
+      background-color: #128C7E;
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+    }
+    
+    /* Download Button Styling */
+    .download-btn {
+      background-color: #d6a77a;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 12px 25px;
+      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.3s ease;
+    }
+    .download-btn:hover {
+      background-color: #c49660;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(214, 167, 122, 0.3);
+    }
+    
+    /* Action Buttons Container */
+    .action-buttons {
+      background-color: white;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-top: 30px;
+    }
+    
+    /* Product images styling */
+    .product-img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #e0dbd3;
+      transition: all 0.3s ease;
+    }
+    
+    .product-img:hover {
+      border-color: #a3b18a;
+      transform: scale(1.05);
+    }
+    
+    /* Size selector styling */
+    .size-selector {
+      margin-left: 95px;
+    }
+ 
