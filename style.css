@@ -1,0 +1,129 @@
+/* Base Layout */
+body {
+    background-color: #fdf6e3;
+    color: #3e3e3e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: #f7f3ec;
+  }
+  
+  /* Image Styling */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  img:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Rounded Profile Image */
+  .rounded-circle {
+    border: 4px solid #a3b18a;
+  }
+  
+  /* Go to Top Button */
+  #topBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    background-color: #a3b18a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  #topBtn:hover {
+    background-color: #3e3e3e;
+  }
+  
+  /* Accent Button */
+  .btn-accent {
+    background-color: #d6a77a;
+    color: #fff;
+    border: none;
+  }
+  .btn-accent:hover {
+    background-color: #a3623e;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f7f3ec;
+    color: #3e3e3e;
+  }
+  
+/* Hover Effects */
+.hover-effect:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+  }
+  
+  /* WhatsApp Button */
+  #whatsappBtn {
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    z-index: 100;
+  }
+  #whatsappBtn img {
+    width: 50px;
+    transition: transform 0.3s;
+  }
+  #whatsappBtn img:hover {
+    transform: scale(1.1);
+  }
+  /* Floating Buttons Container */
+.floating-buttons {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Floating Buttons */
+  #topBtn,
+  #whatsappBtn {
+    background-color: #a3b18a;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none; /* topBtn will toggle with scroll; WhatsApp stays visible */
+    transition: all 0.3s ease;
+  }
+  
+  #topBtn:hover,
+  #whatsappBtn:hover {
+    background-color: #3e3e3e;
+  }
+  
+  /* Always show WhatsApp Button */
+  #whatsappBtn {
+    display: inline-block !important;
+  }
+  
+  /* Feedback Image - Box style */
+.feedback-img {
+    border: 3px solid #a3b18a;
+    border-radius: 8px; /* optional: remove or increase for subtle rounding */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    object-fit: cover;
+  }
+  

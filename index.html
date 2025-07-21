@@ -1,7 +1,145 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Through My Pencil</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-    
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">Through My Pencil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#gallery">Art Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Gift Box</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Prices & Sizes</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to Through My Pencil</h1>
+      <p class="lead">Experience the depth and detail of pencil sketches</p>
+    </div>
+  </header>
+
+  
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="container my-5">
+    <h2 class="text-center mb-4">Drawing Samples</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <img src="image/IMG_6696.JPG" alt="Sample 1" class="img-fluid rounded shadow-sm hover-effect">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="image/Grey and Blue Modern Minimalist Photo Collage A4 Document.png" alt="Sample 2" class="img-fluid rounded shadow-sm hover-effect">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="image/IMG_2789_color_Transparent_PicCopilot_4ac86.png" alt="Sample 3" class="img-fluid rounded shadow-sm hover-effect">
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section id="about" class="container my-5 text-center">
+    <h2 class="mb-4">About Me</h2>
+    <img src="image/471263582_894238822909203_8326549365671082750_n.jpg" alt="Artist Photo" class="rounded-circle mb-3" width="150" height="150">
+    <p>Hi, I'm <strong>Nipun Nirman</strong>, a Computer Science student at the University of Westminster with over 7 years of experience in pencil art. I specialize in realistic portrait sketches and custom artwork for clients worldwide. My passion for combining technology and creativity has led me to explore new ways of sharing traditional art online. Every pencil stroke I make tells a story – personal, emotional, and timeless. Let me help turn your memories into stunning hand-drawn masterpieces.</p>
+  </section>
+
+  <!-- Customer Feedback -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">What Customers Say</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+            <img src="image/0801716F-2B7F-4D7D-88EA-E89E1DEDC3E1.JPEG" alt="Client" class="img-fluid feedback-img mb-3" width="120">
+
+        </div>
+        <div class="col-md-8">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <blockquote class="blockquote animate__animated animate__fadeIn">
+                  <p>“Absolutely stunning pencil work. 100% recommended!”</p>
+                  <footer class="blockquote-footer">Client from UK</footer>
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <blockquote class="blockquote animate__animated animate__fadeIn">
+                  <p>“Very detailed and emotional. I love how it turned out!”</p>
+                  <footer class="blockquote-footer">Client from USA</footer>
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <blockquote class="blockquote animate__animated animate__fadeIn">
+                  <p>“Great communication and delivery. Worth every penny!”</p>
+                  <footer class="blockquote-footer">Client from Germany</footer>
+                </blockquote>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Feature Call to Action -->
+  <section class="text-center py-5">
+    <div class="container">
+      <h2>Special Feature: Personalized Gift Box</h2>
+      <p>You can gift your loved ones a box including personalized pencil art!</p>
+      <a href="giftbox.html" class="btn btn-accent mt-3 hover-effect">Check the Gift Box</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-4">
+    <p>&copy; 2025 Through My Pencil. All rights reserved.</p>
+    <div class="social-links mt-3">
+      <a href="https://www.facebook.com/yourprofile" target="_blank" class="me-3">Facebook</a>
+      <a href="https://www.instagram.com/yourprofile" target="_blank" class="me-3">Instagram</a>
+      <a href="https://www.twitter.com/yourprofile" target="_blank">Twitter</a>
+    </div>
+  </footer>
+
+  <!-- Go to Top and WhatsApp Buttons -->
+  <div class="floating-buttons">
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+    <a href="https://wa.me/+94757105455" target="_blank">
+      <button id="whatsappBtn" title="Chat on WhatsApp">WhatsApp</button>
+    </a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const topBtn = document.getElementById("topBtn");
+    window.onscroll = function() {
+      topBtn.style.display = (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) ? "block" : "none";
+    };
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
 </body>
+</html>
