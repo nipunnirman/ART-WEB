@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Social Media - Art by Nipun</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #f7f3ec;
+      color: #3e3e3e;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Social Buttons */
+    .social-btn {
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      margin: 10px auto;
+      padding: 15px;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .social-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .facebook { background-color: #3b5998; }
+    .facebook:hover { background-color: #2d4373; }
+
+    .instagram { background-color: #e4405f; }
+    .instagram:hover { background-color: #c13584; }
+
+    .twitter { background-color: #1da1f2; }
+    .twitter:hover { background-color: #0d95e8; }
+
+    .whatsapp { background-color: #25D366; }
+    .whatsapp:hover { background-color: #128C7E; }
+
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ✅ NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Art by Nipun</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="gift.html">Gift Box</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="price.html">Price List</a></li>
+          <li class="nav-item"><a class="nav-link active" href="social.html">Social</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✅ Social Links Section -->
+  <div class="container">
+    <h2>Follow & Contact Me</h2>
+
+    <a href="https://www.facebook.com/yourpage" target="_blank" class="social-btn facebook">
+      📘 Facebook
+    </a>
+
+    <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-btn instagram">
+      📸 Instagram
+    </a>
+
+    <a href="https://twitter.com/yourhandle" target="_blank" class="social-btn twitter">
+      🐦 Twitter
+    </a>
+
+    <a href="https://wa.me/your_number" target="_blank" class="social-btn whatsapp">
+      💬 WhatsApp Channel
+    </a>
+  </div>
+
+</body>
+</html>

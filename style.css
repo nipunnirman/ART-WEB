@@ -193,4 +193,16 @@ body {
       padding: 20px;
     }
   }
+  /* Gallery Image Styling */
+.gallery-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-img:hover {
+    transform: scale(1.02);
+  }
   
